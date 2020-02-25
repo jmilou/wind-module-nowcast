@@ -51,8 +51,8 @@ wind = dict(datetime=date_time,
             x_vel=x_vel,
             y_vel=y_vel,
             time_predicted=time_predicted,
-            d_proyected=v_hat,
-            mod_vel=time_predicted)
+            d_proyected=d_proyected,
+            mod_vel=v_hat)
 
 
 # passing the wind date_keys to UT

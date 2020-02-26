@@ -53,7 +53,7 @@ wind = dict(datetime=date_time,
             time_predicted=time_predicted,
             d_proyected=d_proyected,
             mod_vel=v_hat,
-            wind_direction=phase)
+            wind_direction=winddirection[colsbearing2phase])  # this is where the wind COMES FROM
 
 
 # passing the wind date_keys to UT
